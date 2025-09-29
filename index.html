@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zexxo Developer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at top left, #0f172a, #1e293b, #0f172a);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      text-shadow: 0 0 10px rgba(34,158,217,0.7), 0 0 20px rgba(34,158,217,0.5);
+      animation: glowText 2s infinite alternate;
+    }
+    @keyframes glowText {
+      from { text-shadow: 0 0 10px #229ED9, 0 0 20px #1b8bbf; }
+      to { text-shadow: 0 0 20px #229ED9, 0 0 40px #1b8bbf; }
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      background: #229ED9;
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: bold;
+      padding: 16px 28px;
+      border-radius: 16px;
+      text-decoration: none;
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 0 15px rgba(34,158,217,0.7), 0 0 30px rgba(34,158,217,0.5);
+      animation: pulse 2s infinite;
+    }
+    .btn:hover {
+      background: #1b8bbf;
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(34,158,217,1), 0 0 50px rgba(34,158,217,0.8);
+    }
+    .btn img {
+      width: 34px;
+      height: 34px;
+      margin-right: 14px;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 10px #229ED9, 0 0 20px #1b8bbf; }
+      50% { box-shadow: 0 0 25px #229ED9, 0 0 50px #1b8bbf; }
+      100% { box-shadow: 0 0 10px #229ED9, 0 0 20px #1b8bbf; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Zexxo Developer</h1>
+  <a href="https://t.me/xxzexxo" target="_blank" class="btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo">
+    Information Eminence
+  </a>
+</body>
+</html>
